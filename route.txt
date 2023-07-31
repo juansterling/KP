@@ -1,0 +1,9 @@
+Route: /master/program-mahasiswa
+Route: /master/bidang-keahlian
+Route: /master/skema-penelitian/{research_scheme_id}/requirement
+Route: /master/skema-buku/{book_scheme_id}/requirement
+Route: /master/skema-buku/{book_scheme_id}/requirement/detail
+Route: /master/skema-pelayanan-publik/{community_service_scheme_id}/requirement/luaran
+Route: /master/skema-karya-ilmiah/{scientific_work_scheme_id}/requirement/detail
+Route: /dosen
+Route: /user/{user_id}/portofolio/riwayat-pendidikan
