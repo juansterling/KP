@@ -447,12 +447,12 @@ class aoe extends Seeder
             // "phase" => 'luaran',
             // 'status'=>"pengecekan kelengkapan"
         ]);
-        // DB::table("pkm_leaders")->insert([
-        //     "pkm_header_id" => 1,
-        //     "user_id" => 4,
-        //     "faculty_id" => 1,
-        //     "study_program_id" => 1,
-        // ]);
+        DB::table("pkm_leaders")->insert([
+            "pkm_header_id" => 1,
+            "user_id" => 4,
+            "faculty_id" => 1,
+            "study_program_id" => 1,
+        ]);
         DB::table("pkm_members")->insert([
             "pkm_header_id" => 1,
             // "user_id" => 2,
